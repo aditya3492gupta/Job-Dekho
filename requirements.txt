@@ -1,0 +1,5 @@
+jsonwebtoken
+bcryptjs
+cookie-parser
+dotenv
+cors
