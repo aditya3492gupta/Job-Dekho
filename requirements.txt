@@ -3,3 +3,8 @@ bcryptjs
 cookie-parser
 dotenv
 cors
+react-router-dom 
+axios 
+@reduxjs/toolkit 
+react-redux
+multer
