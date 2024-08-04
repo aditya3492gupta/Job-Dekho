@@ -8,3 +8,4 @@ axios
 @reduxjs/toolkit 
 react-redux
 multer
+redux-persist
