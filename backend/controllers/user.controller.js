@@ -128,6 +128,9 @@ export const updateProfile = async (req, res) => {
     try {
         const { fullName, email, phoneNumber, bio, skills } = req.body;
 
+        const file = req.file;
+        // const fileUri =
+
         let skillsArray;
         if (skills) {
             skillsArray = skills.split(',');

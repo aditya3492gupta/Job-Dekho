@@ -1,8 +1,11 @@
+# for backend
 jsonwebtoken
 bcryptjs
 cookie-parser
 dotenv
 cors
+
+# for frontend
 react-router-dom 
 axios 
 @reduxjs/toolkit 
