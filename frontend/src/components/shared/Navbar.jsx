@@ -63,17 +63,17 @@ const Navbar = () => {
                             <Popover>
                                 <PopoverTrigger asChild>
                                     <Avatar className="cursor-pointer">
-                                        <AvatarImage src={user?.profile?.profilePhoto} alt="@shadcn" />
+                                        <AvatarImage src={user?.profile?.profilePhoto} alt="profile" />
                                     </Avatar>
                                 </PopoverTrigger>
                                 <PopoverContent className="w-80">
                                     <div className=''>
                                         <div className='flex gap-2 space-y-2'>
                                             <Avatar className="cursor-pointer">
-                                                <AvatarImage src={user?.profile?.profilePhoto} alt="@shadcn" />
+                                                <AvatarImage src={user?.profile?.profilePhoto} alt="profile" />
                                             </Avatar>
                                             <div>
-                                                <h4 className='font-medium'>{user?.fullname}</h4>
+                                                <h4 className='font-medium'>{user?.fullName}</h4>
                                                 <p className='text-sm text-muted-foreground'>{user?.profile?.bio}</p>
                                             </div>
                                         </div>
