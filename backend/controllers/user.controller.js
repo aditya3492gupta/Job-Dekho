@@ -14,6 +14,12 @@ export const register = async (req, res) => {
                 success: false
             });
         };
+        if (phoneNumber.length < 10 || phoneNumber.length > 10) {
+            return res.status(400).json({
+                message: "Phone number must be of 10 digits!",
+                success: false
+            });
+        };
         const file = req.file;
         const fileUri = getDataUri(file);
         const cloudResponse = await cloudinary.uploader.upload(fileUri.content);
